@@ -42,7 +42,6 @@ p {
   border-radius: 20px;
   padding: 1rem;
   margin: 0 0.5rem;
-  transition-delay: 2000ms;
 }
 
 .logo:nth-child(2) {

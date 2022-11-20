@@ -34,6 +34,8 @@ p {
 
 .hidden {
   opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
   transition: all 2s;
 }
 
@@ -45,4 +47,6 @@ p {
 
 .show {
   opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
 }
